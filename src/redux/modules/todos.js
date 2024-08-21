@@ -23,11 +23,11 @@ const initialState = [
 
 const todos = (state = initialState, action) => {
   switch (action.type) {
-    case value:
-      break;
+    case ADD_TODO:
+      return [...state, action.payload];
 
     default:
-      break;
+      return state;
   }
 };
 
