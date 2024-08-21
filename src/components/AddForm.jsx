@@ -12,6 +12,7 @@ const AddForm = () => {
           setTodo(e.target.value);
         }}
       />
+      <button>추가</button>
     </div>
   );
 };
