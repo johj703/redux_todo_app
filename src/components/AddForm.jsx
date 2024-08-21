@@ -19,7 +19,7 @@ const AddForm = () => {
         onClick={() => {
           dispatch(
             addTodo({
-              id: 3,
+              id: new Date(),
               title: todo,
             })
           );
