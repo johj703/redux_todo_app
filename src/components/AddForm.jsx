@@ -1,5 +1,6 @@
-import { React, useState } from "react";
+import { useState } from "react";
 import { useDispatch } from "react-redux";
+import { addTodo } from "../redux/slices/todosSlice";
 // import { addTodo } from "../redux/modules/todos";
 
 const AddForm = () => {
